@@ -59,6 +59,11 @@ export const MediaRoom = ({
       connect={true}
       video={video}
       audio={audio}
+      // options={{
+      //   publishDefaults: {
+      //     videoCodec: 'vp9',
+      //   },
+      // }}
     >
       <VideoConference />
     </LiveKitRoom>

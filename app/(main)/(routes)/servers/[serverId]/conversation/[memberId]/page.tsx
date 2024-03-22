@@ -67,6 +67,7 @@ const MemberIdPage = async ({
           chatId={conversation.id}
           video={true}
           audio={true}
+          
         />
       )}
       {!searchParams.video && (
